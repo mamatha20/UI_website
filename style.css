@@ -1,0 +1,76 @@
+.main{
+    padding: 0px;
+    margin: 0px;
+    background-color: #2F4F4F;
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 35%;
+    background: #f1f1f1;
+    position: relative;
+    left: 350px;
+    top: -20px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 7%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+    top: -20px;
+
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .pic{
+      height: 50px;
+      width: 50px;
+      position:absolute;
+      left: 40px;
+      top: 25px;
+  }
+
+  .top-social{
+    float: right;
+    margin-right: 5%;
+    padding: 14px 15px;
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+    
+  }
+  .top-social a{
+    padding: 13px;
+    color: #fff;
+  }
+  .top-social a:hover{
+    color: blue
+  }
+  
